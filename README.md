@@ -1,7 +1,7 @@
 # NCS2_Remote_Sensing_Scene_classification
 Remote Sensing Scene Classification on Intel Neural Compute Stick 2 
 
-## h5 models are frozen using following code 
+## H5 models are frozen using following code 
 
 import tensorflow as tf
 
@@ -13,7 +13,7 @@ or
 Using the code in file "01_MobilenetV2/Convert_to_PB_MobileNetV2.ipynb"
 
 
-## frozen model are converted into Intermediate Representation (IR) 
+## Frozen model are converted into Intermediate Representation (IR) 
 
 Before running following command OPENVINO environment needs to be initialised
 
