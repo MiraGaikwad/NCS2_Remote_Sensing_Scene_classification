@@ -1,0 +1,1315 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="input_1_6" output_port_id="input_1_6" />
+		<IR name="input_1_6" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1_6" output_port_id="input_1_6" />
+		<IR name="input_1_6" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1_6" output_port_id="input_1_6" />
+		<IR name="input_1_6" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1_6" output_port_id="input_1_6:0" />
+		<IR name="input_1_6" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1_6" output_port_id="input_1_6:0" />
+		<IR name="input_1_6" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1_6" output_port_id="input_1_6:0" />
+		<IR name="input_1_6" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="bn_Conv1_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="Conv1_6/Conv2D/ReadVariableOp:0" />
+		<IR name="bn_Conv1_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv1_6/Conv2D/ReadVariableOp" output_port_id="Conv1_6/Conv2D/ReadVariableOp:0" />
+		<IR name="bn_Conv1_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="bn_Conv1_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="bn_Conv1_6/FusedBatchNormV3:0" />
+		<IR name="bn_Conv1_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="bn_Conv1_6/FusedBatchNormV3" output_port_id="bn_Conv1_6/FusedBatchNormV3:0" />
+		<IR name="bn_Conv1_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Conv1_relu_6/Relu6" output_port_id="Conv1_relu_6/Relu6:0" />
+		<IR name="Conv1_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Conv1_relu_6/Relu6" output_port_id="Conv1_relu_6/Relu6:0" />
+		<IR name="Conv1_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="expanded_conv_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="expanded_conv_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="expanded_conv_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="expanded_conv_depthwise_6/depthwise/ReadVariableOp" output_port_id="expanded_conv_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="expanded_conv_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="expanded_conv_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="expanded_conv_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="expanded_conv_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="expanded_conv_depthwise_BN_6/FusedBatchNormV3" output_port_id="expanded_conv_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="expanded_conv_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="expanded_conv_depthwise_relu_6/Relu6" output_port_id="expanded_conv_depthwise_relu_6/Relu6:0" />
+		<IR name="expanded_conv_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="expanded_conv_depthwise_relu_6/Relu6" output_port_id="expanded_conv_depthwise_relu_6/Relu6:0" />
+		<IR name="expanded_conv_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="expanded_conv_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="expanded_conv_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="expanded_conv_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="expanded_conv_project_6/Conv2D/ReadVariableOp" output_port_id="expanded_conv_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="expanded_conv_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="expanded_conv_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="expanded_conv_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="expanded_conv_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="expanded_conv_project_BN_6/FusedBatchNormV3" output_port_id="expanded_conv_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="expanded_conv_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_1_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_1_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_1_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_1_expand_6/Conv2D/ReadVariableOp" output_port_id="block_1_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_1_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_1_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_1_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_1_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_1_expand_BN_6/FusedBatchNormV3" output_port_id="block_1_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_1_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_1_expand_relu_6/Relu6" output_port_id="block_1_expand_relu_6/Relu6:0" />
+		<IR name="block_1_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_1_expand_relu_6/Relu6" output_port_id="block_1_expand_relu_6/Relu6:0" />
+		<IR name="block_1_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_1_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_1_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_1_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_1_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_1_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_1_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_1_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_1_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_1_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_1_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_1_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_1_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_1_depthwise_relu_6/Relu6" output_port_id="block_1_depthwise_relu_6/Relu6:0" />
+		<IR name="block_1_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_1_depthwise_relu_6/Relu6" output_port_id="block_1_depthwise_relu_6/Relu6:0" />
+		<IR name="block_1_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_1_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_1_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_1_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_1_project_6/Conv2D/ReadVariableOp" output_port_id="block_1_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_1_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_1_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_1_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_1_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_1_project_BN_6/FusedBatchNormV3" output_port_id="block_1_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_1_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_2_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_2_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_2_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_2_expand_6/Conv2D/ReadVariableOp" output_port_id="block_2_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_2_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_2_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_2_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_2_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_2_expand_BN_6/FusedBatchNormV3" output_port_id="block_2_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_2_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_2_expand_relu_6/Relu6" output_port_id="block_2_expand_relu_6/Relu6:0" />
+		<IR name="block_2_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_2_expand_relu_6/Relu6" output_port_id="block_2_expand_relu_6/Relu6:0" />
+		<IR name="block_2_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_2_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_2_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_2_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_2_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_2_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_2_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_2_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_2_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_2_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_2_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_2_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_2_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_2_depthwise_relu_6/Relu6" output_port_id="block_2_depthwise_relu_6/Relu6:0" />
+		<IR name="block_2_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_2_depthwise_relu_6/Relu6" output_port_id="block_2_depthwise_relu_6/Relu6:0" />
+		<IR name="block_2_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_2_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_2_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_2_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_2_project_6/Conv2D/ReadVariableOp" output_port_id="block_2_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_2_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_2_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_2_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_2_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_2_project_BN_6/FusedBatchNormV3" output_port_id="block_2_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_2_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_2_add_6/add" output_port_id="block_2_add_6/add:0" />
+		<IR name="block_2_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_2_add_6/add" output_port_id="block_2_add_6/add:0" />
+		<IR name="block_2_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_3_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_3_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_3_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_3_expand_6/Conv2D/ReadVariableOp" output_port_id="block_3_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_3_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_3_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_3_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_3_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_3_expand_BN_6/FusedBatchNormV3" output_port_id="block_3_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_3_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_3_expand_relu_6/Relu6" output_port_id="block_3_expand_relu_6/Relu6:0" />
+		<IR name="block_3_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_3_expand_relu_6/Relu6" output_port_id="block_3_expand_relu_6/Relu6:0" />
+		<IR name="block_3_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_3_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_3_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_3_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_3_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_3_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_3_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_3_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_3_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_3_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_3_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_3_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_3_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_3_depthwise_relu_6/Relu6" output_port_id="block_3_depthwise_relu_6/Relu6:0" />
+		<IR name="block_3_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_3_depthwise_relu_6/Relu6" output_port_id="block_3_depthwise_relu_6/Relu6:0" />
+		<IR name="block_3_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_3_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_3_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_3_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_3_project_6/Conv2D/ReadVariableOp" output_port_id="block_3_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_3_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_3_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_3_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_3_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_3_project_BN_6/FusedBatchNormV3" output_port_id="block_3_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_3_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_4_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_4_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_4_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_4_expand_6/Conv2D/ReadVariableOp" output_port_id="block_4_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_4_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_4_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_4_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_4_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_4_expand_BN_6/FusedBatchNormV3" output_port_id="block_4_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_4_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_4_expand_relu_6/Relu6" output_port_id="block_4_expand_relu_6/Relu6:0" />
+		<IR name="block_4_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_4_expand_relu_6/Relu6" output_port_id="block_4_expand_relu_6/Relu6:0" />
+		<IR name="block_4_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_4_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_4_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_4_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_4_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_4_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_4_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_4_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_4_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_4_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_4_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_4_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_4_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_4_depthwise_relu_6/Relu6" output_port_id="block_4_depthwise_relu_6/Relu6:0" />
+		<IR name="block_4_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_4_depthwise_relu_6/Relu6" output_port_id="block_4_depthwise_relu_6/Relu6:0" />
+		<IR name="block_4_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_4_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_4_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_4_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_4_project_6/Conv2D/ReadVariableOp" output_port_id="block_4_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_4_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_4_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_4_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_4_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_4_project_BN_6/FusedBatchNormV3" output_port_id="block_4_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_4_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_4_add_6/add" output_port_id="block_4_add_6/add:0" />
+		<IR name="block_4_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_4_add_6/add" output_port_id="block_4_add_6/add:0" />
+		<IR name="block_4_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_5_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_5_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_5_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_5_expand_6/Conv2D/ReadVariableOp" output_port_id="block_5_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_5_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_5_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_5_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_5_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_5_expand_BN_6/FusedBatchNormV3" output_port_id="block_5_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_5_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_5_expand_relu_6/Relu6" output_port_id="block_5_expand_relu_6/Relu6:0" />
+		<IR name="block_5_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_5_expand_relu_6/Relu6" output_port_id="block_5_expand_relu_6/Relu6:0" />
+		<IR name="block_5_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_5_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_5_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_5_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_5_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_5_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_5_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_5_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_5_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_5_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_5_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_5_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_5_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_5_depthwise_relu_6/Relu6" output_port_id="block_5_depthwise_relu_6/Relu6:0" />
+		<IR name="block_5_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_5_depthwise_relu_6/Relu6" output_port_id="block_5_depthwise_relu_6/Relu6:0" />
+		<IR name="block_5_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_5_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_5_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_5_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_5_project_6/Conv2D/ReadVariableOp" output_port_id="block_5_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_5_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_5_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_5_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_5_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_5_project_BN_6/FusedBatchNormV3" output_port_id="block_5_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_5_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_5_add_6/add" output_port_id="block_5_add_6/add:0" />
+		<IR name="block_5_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_5_add_6/add" output_port_id="block_5_add_6/add:0" />
+		<IR name="block_5_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_6_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_6_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_6_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_6_expand_6/Conv2D/ReadVariableOp" output_port_id="block_6_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_6_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_6_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_6_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_6_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_6_expand_BN_6/FusedBatchNormV3" output_port_id="block_6_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_6_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_6_expand_relu_6/Relu6" output_port_id="block_6_expand_relu_6/Relu6:0" />
+		<IR name="block_6_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_6_expand_relu_6/Relu6" output_port_id="block_6_expand_relu_6/Relu6:0" />
+		<IR name="block_6_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_6_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_6_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_6_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_6_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_6_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_6_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_6_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_6_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_6_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_6_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_6_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_6_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_6_depthwise_relu_6/Relu6" output_port_id="block_6_depthwise_relu_6/Relu6:0" />
+		<IR name="block_6_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_6_depthwise_relu_6/Relu6" output_port_id="block_6_depthwise_relu_6/Relu6:0" />
+		<IR name="block_6_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_6_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_6_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_6_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_6_project_6/Conv2D/ReadVariableOp" output_port_id="block_6_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_6_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_6_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_6_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_6_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_6_project_BN_6/FusedBatchNormV3" output_port_id="block_6_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_6_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_7_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_7_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_7_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_7_expand_6/Conv2D/ReadVariableOp" output_port_id="block_7_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_7_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_7_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_7_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_7_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_7_expand_BN_6/FusedBatchNormV3" output_port_id="block_7_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_7_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_7_expand_relu_6/Relu6" output_port_id="block_7_expand_relu_6/Relu6:0" />
+		<IR name="block_7_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_7_expand_relu_6/Relu6" output_port_id="block_7_expand_relu_6/Relu6:0" />
+		<IR name="block_7_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_7_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_7_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_7_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_7_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_7_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_7_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_7_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_7_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_7_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_7_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_7_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_7_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_7_depthwise_relu_6/Relu6" output_port_id="block_7_depthwise_relu_6/Relu6:0" />
+		<IR name="block_7_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_7_depthwise_relu_6/Relu6" output_port_id="block_7_depthwise_relu_6/Relu6:0" />
+		<IR name="block_7_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_7_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_7_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_7_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_7_project_6/Conv2D/ReadVariableOp" output_port_id="block_7_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_7_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_7_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_7_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_7_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_7_project_BN_6/FusedBatchNormV3" output_port_id="block_7_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_7_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_7_add_6/add" output_port_id="block_7_add_6/add:0" />
+		<IR name="block_7_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_7_add_6/add" output_port_id="block_7_add_6/add:0" />
+		<IR name="block_7_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_8_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_8_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_8_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_8_expand_6/Conv2D/ReadVariableOp" output_port_id="block_8_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_8_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_8_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_8_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_8_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_8_expand_BN_6/FusedBatchNormV3" output_port_id="block_8_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_8_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_8_expand_relu_6/Relu6" output_port_id="block_8_expand_relu_6/Relu6:0" />
+		<IR name="block_8_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_8_expand_relu_6/Relu6" output_port_id="block_8_expand_relu_6/Relu6:0" />
+		<IR name="block_8_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_8_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_8_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_8_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_8_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_8_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_8_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_8_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_8_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_8_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_8_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_8_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_8_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_8_depthwise_relu_6/Relu6" output_port_id="block_8_depthwise_relu_6/Relu6:0" />
+		<IR name="block_8_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_8_depthwise_relu_6/Relu6" output_port_id="block_8_depthwise_relu_6/Relu6:0" />
+		<IR name="block_8_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_8_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_8_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_8_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_8_project_6/Conv2D/ReadVariableOp" output_port_id="block_8_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_8_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_8_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_8_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_8_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_8_project_BN_6/FusedBatchNormV3" output_port_id="block_8_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_8_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_8_add_6/add" output_port_id="block_8_add_6/add:0" />
+		<IR name="block_8_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_8_add_6/add" output_port_id="block_8_add_6/add:0" />
+		<IR name="block_8_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_9_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_9_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_9_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_9_expand_6/Conv2D/ReadVariableOp" output_port_id="block_9_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_9_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_9_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_9_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_9_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_9_expand_BN_6/FusedBatchNormV3" output_port_id="block_9_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_9_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_9_expand_relu_6/Relu6" output_port_id="block_9_expand_relu_6/Relu6:0" />
+		<IR name="block_9_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_9_expand_relu_6/Relu6" output_port_id="block_9_expand_relu_6/Relu6:0" />
+		<IR name="block_9_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_9_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_9_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_9_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_9_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_9_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_9_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_9_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_9_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_9_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_9_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_9_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_9_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_9_depthwise_relu_6/Relu6" output_port_id="block_9_depthwise_relu_6/Relu6:0" />
+		<IR name="block_9_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_9_depthwise_relu_6/Relu6" output_port_id="block_9_depthwise_relu_6/Relu6:0" />
+		<IR name="block_9_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_9_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_9_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_9_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_9_project_6/Conv2D/ReadVariableOp" output_port_id="block_9_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_9_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_9_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_9_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_9_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_9_project_BN_6/FusedBatchNormV3" output_port_id="block_9_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_9_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_9_add_6/add" output_port_id="block_9_add_6/add:0" />
+		<IR name="block_9_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_9_add_6/add" output_port_id="block_9_add_6/add:0" />
+		<IR name="block_9_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_10_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_10_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_10_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_10_expand_6/Conv2D/ReadVariableOp" output_port_id="block_10_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_10_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_10_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_10_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_10_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_10_expand_BN_6/FusedBatchNormV3" output_port_id="block_10_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_10_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_10_expand_relu_6/Relu6" output_port_id="block_10_expand_relu_6/Relu6:0" />
+		<IR name="block_10_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_10_expand_relu_6/Relu6" output_port_id="block_10_expand_relu_6/Relu6:0" />
+		<IR name="block_10_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_10_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_10_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_10_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_10_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_10_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_10_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_10_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_10_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_10_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_10_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_10_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_10_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_10_depthwise_relu_6/Relu6" output_port_id="block_10_depthwise_relu_6/Relu6:0" />
+		<IR name="block_10_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_10_depthwise_relu_6/Relu6" output_port_id="block_10_depthwise_relu_6/Relu6:0" />
+		<IR name="block_10_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_10_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_10_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_10_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_10_project_6/Conv2D/ReadVariableOp" output_port_id="block_10_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_10_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_10_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_10_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_10_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_10_project_BN_6/FusedBatchNormV3" output_port_id="block_10_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_10_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_11_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_11_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_11_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_11_expand_6/Conv2D/ReadVariableOp" output_port_id="block_11_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_11_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_11_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_11_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_11_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_11_expand_BN_6/FusedBatchNormV3" output_port_id="block_11_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_11_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_11_expand_relu_6/Relu6" output_port_id="block_11_expand_relu_6/Relu6:0" />
+		<IR name="block_11_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_11_expand_relu_6/Relu6" output_port_id="block_11_expand_relu_6/Relu6:0" />
+		<IR name="block_11_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_11_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_11_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_11_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_11_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_11_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_11_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_11_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_11_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_11_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_11_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_11_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_11_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_11_depthwise_relu_6/Relu6" output_port_id="block_11_depthwise_relu_6/Relu6:0" />
+		<IR name="block_11_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_11_depthwise_relu_6/Relu6" output_port_id="block_11_depthwise_relu_6/Relu6:0" />
+		<IR name="block_11_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_11_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_11_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_11_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_11_project_6/Conv2D/ReadVariableOp" output_port_id="block_11_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_11_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_11_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_11_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_11_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_11_project_BN_6/FusedBatchNormV3" output_port_id="block_11_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_11_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_11_add_6/add" output_port_id="block_11_add_6/add:0" />
+		<IR name="block_11_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_11_add_6/add" output_port_id="block_11_add_6/add:0" />
+		<IR name="block_11_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_12_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_12_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_12_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_12_expand_6/Conv2D/ReadVariableOp" output_port_id="block_12_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_12_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_12_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_12_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_12_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_12_expand_BN_6/FusedBatchNormV3" output_port_id="block_12_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_12_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_12_expand_relu_6/Relu6" output_port_id="block_12_expand_relu_6/Relu6:0" />
+		<IR name="block_12_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_12_expand_relu_6/Relu6" output_port_id="block_12_expand_relu_6/Relu6:0" />
+		<IR name="block_12_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_12_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_12_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_12_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_12_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_12_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_12_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_12_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_12_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_12_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_12_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_12_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_12_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_12_depthwise_relu_6/Relu6" output_port_id="block_12_depthwise_relu_6/Relu6:0" />
+		<IR name="block_12_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_12_depthwise_relu_6/Relu6" output_port_id="block_12_depthwise_relu_6/Relu6:0" />
+		<IR name="block_12_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_12_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_12_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_12_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_12_project_6/Conv2D/ReadVariableOp" output_port_id="block_12_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_12_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_12_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_12_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_12_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_12_project_BN_6/FusedBatchNormV3" output_port_id="block_12_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_12_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_12_add_6/add" output_port_id="block_12_add_6/add:0" />
+		<IR name="block_12_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_12_add_6/add" output_port_id="block_12_add_6/add:0" />
+		<IR name="block_12_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_13_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_13_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_13_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_13_expand_6/Conv2D/ReadVariableOp" output_port_id="block_13_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_13_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_13_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_13_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_13_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_13_expand_BN_6/FusedBatchNormV3" output_port_id="block_13_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_13_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_13_expand_relu_6/Relu6" output_port_id="block_13_expand_relu_6/Relu6:0" />
+		<IR name="block_13_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_13_expand_relu_6/Relu6" output_port_id="block_13_expand_relu_6/Relu6:0" />
+		<IR name="block_13_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_13_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_13_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_13_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_13_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_13_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_13_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_13_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_13_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_13_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_13_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_13_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_13_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_13_depthwise_relu_6/Relu6" output_port_id="block_13_depthwise_relu_6/Relu6:0" />
+		<IR name="block_13_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_13_depthwise_relu_6/Relu6" output_port_id="block_13_depthwise_relu_6/Relu6:0" />
+		<IR name="block_13_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_13_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_13_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_13_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_13_project_6/Conv2D/ReadVariableOp" output_port_id="block_13_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_13_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_13_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_13_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_13_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_13_project_BN_6/FusedBatchNormV3" output_port_id="block_13_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_13_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_14_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_14_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_14_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_14_expand_6/Conv2D/ReadVariableOp" output_port_id="block_14_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_14_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_14_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_14_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_14_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_14_expand_BN_6/FusedBatchNormV3" output_port_id="block_14_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_14_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_14_expand_relu_6/Relu6" output_port_id="block_14_expand_relu_6/Relu6:0" />
+		<IR name="block_14_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_14_expand_relu_6/Relu6" output_port_id="block_14_expand_relu_6/Relu6:0" />
+		<IR name="block_14_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_14_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_14_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_14_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_14_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_14_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_14_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_14_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_14_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_14_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_14_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_14_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_14_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_14_depthwise_relu_6/Relu6" output_port_id="block_14_depthwise_relu_6/Relu6:0" />
+		<IR name="block_14_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_14_depthwise_relu_6/Relu6" output_port_id="block_14_depthwise_relu_6/Relu6:0" />
+		<IR name="block_14_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_14_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_14_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_14_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_14_project_6/Conv2D/ReadVariableOp" output_port_id="block_14_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_14_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_14_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_14_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_14_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_14_project_BN_6/FusedBatchNormV3" output_port_id="block_14_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_14_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_14_add_6/add" output_port_id="block_14_add_6/add:0" />
+		<IR name="block_14_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_14_add_6/add" output_port_id="block_14_add_6/add:0" />
+		<IR name="block_14_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_15_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_15_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_15_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_15_expand_6/Conv2D/ReadVariableOp" output_port_id="block_15_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_15_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_15_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_15_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_15_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_15_expand_BN_6/FusedBatchNormV3" output_port_id="block_15_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_15_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_15_expand_relu_6/Relu6" output_port_id="block_15_expand_relu_6/Relu6:0" />
+		<IR name="block_15_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_15_expand_relu_6/Relu6" output_port_id="block_15_expand_relu_6/Relu6:0" />
+		<IR name="block_15_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_15_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_15_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_15_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_15_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_15_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_15_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_15_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_15_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_15_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_15_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_15_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_15_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_15_depthwise_relu_6/Relu6" output_port_id="block_15_depthwise_relu_6/Relu6:0" />
+		<IR name="block_15_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_15_depthwise_relu_6/Relu6" output_port_id="block_15_depthwise_relu_6/Relu6:0" />
+		<IR name="block_15_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_15_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_15_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_15_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_15_project_6/Conv2D/ReadVariableOp" output_port_id="block_15_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_15_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_15_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_15_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_15_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_15_project_BN_6/FusedBatchNormV3" output_port_id="block_15_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_15_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_15_add_6/add" output_port_id="block_15_add_6/add:0" />
+		<IR name="block_15_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_15_add_6/add" output_port_id="block_15_add_6/add:0" />
+		<IR name="block_15_add_6/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_16_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_16_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_16_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_16_expand_6/Conv2D/ReadVariableOp" output_port_id="block_16_expand_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_16_expand_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_16_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_16_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_16_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_16_expand_BN_6/FusedBatchNormV3" output_port_id="block_16_expand_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_16_expand_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_16_expand_relu_6/Relu6" output_port_id="block_16_expand_relu_6/Relu6:0" />
+		<IR name="block_16_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_16_expand_relu_6/Relu6" output_port_id="block_16_expand_relu_6/Relu6:0" />
+		<IR name="block_16_expand_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_16_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_16_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_16_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_16_depthwise_6/depthwise/ReadVariableOp" output_port_id="block_16_depthwise_6/depthwise/ReadVariableOp:0" />
+		<IR name="block_16_depthwise_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_16_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_16_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_16_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_16_depthwise_BN_6/FusedBatchNormV3" output_port_id="block_16_depthwise_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_16_depthwise_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_16_depthwise_relu_6/Relu6" output_port_id="block_16_depthwise_relu_6/Relu6:0" />
+		<IR name="block_16_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_16_depthwise_relu_6/Relu6" output_port_id="block_16_depthwise_relu_6/Relu6:0" />
+		<IR name="block_16_depthwise_relu_6/Relu6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="block_16_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="block_16_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_16_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_16_project_6/Conv2D/ReadVariableOp" output_port_id="block_16_project_6/Conv2D/ReadVariableOp:0" />
+		<IR name="block_16_project_BN_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="block_16_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="block_16_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_16_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="block_16_project_BN_6/FusedBatchNormV3" output_port_id="block_16_project_BN_6/FusedBatchNormV3:0" />
+		<IR name="block_16_project_BN_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Conv_1_bn_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="Conv_1_6/Conv2D/ReadVariableOp:0" />
+		<IR name="Conv_1_bn_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_1_6/Conv2D/ReadVariableOp" output_port_id="Conv_1_6/Conv2D/ReadVariableOp:0" />
+		<IR name="Conv_1_bn_6/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_1_bn_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="Conv_1_bn_6/FusedBatchNormV3:0" />
+		<IR name="Conv_1_bn_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Conv_1_bn_6/FusedBatchNormV3" output_port_id="Conv_1_bn_6/FusedBatchNormV3:0" />
+		<IR name="Conv_1_bn_6/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="global_average_pooling2d_6/Mean" output_port_id="global_average_pooling2d_6/Mean:0" />
+		<IR name="global_average_pooling2d_6/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="global_average_pooling2d_6/Mean" output_port_id="global_average_pooling2d_6/Mean:0" />
+		<IR name="global_average_pooling2d_6/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dropout_6/Identity" output_port_id="global_average_pooling2d_6/Mean:0" />
+		<IR name="global_average_pooling2d_6/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="global_average_pooling2d_6/Mean" output_port_id="dropout_6/Identity:0" />
+		<IR name="global_average_pooling2d_6/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="global_average_pooling2d_6/Mean" output_port_id="dropout_6/Identity:0" />
+		<IR name="global_average_pooling2d_6/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dropout_6/Identity" output_port_id="dropout_6/Identity:0" />
+		<IR name="global_average_pooling2d_6/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dense_7/MatMul/ReadVariableOp" output_port_id="dense_7/MatMul/ReadVariableOp:0" />
+		<IR name="dense_7/MatMul/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dense_7/MatMul/ReadVariableOp" output_port_id="dense_7/MatMul/ReadVariableOp:0" />
+		<IR name="dense_7/MatMul/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dense_7/MatMul" output_port_id="dense_7/MatMul:0" />
+		<IR name="dense_7/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dense_7/MatMul" output_port_id="dense_7/MatMul:0" />
+		<IR name="dense_7/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dense_7/BiasAdd/ReadVariableOp" output_port_id="dense_7/BiasAdd/ReadVariableOp:0" />
+		<IR name="dense_7/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dense_7/BiasAdd/ReadVariableOp" output_port_id="dense_7/BiasAdd/ReadVariableOp:0" />
+		<IR name="dense_7/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dense_7/BiasAdd/Add" output_port_id="dense_7/BiasAdd:0" />
+		<IR name="dense_7/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dense_7/BiasAdd" output_port_id="dense_7/BiasAdd:0" />
+		<IR name="dense_7/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dense_7/Relu" output_port_id="dense_7/Relu:0" />
+		<IR name="dense_7/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="dense_7/Relu" output_port_id="dense_7/Relu:0" />
+		<IR name="dense_7/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="dense_1_6/MatMul/ReadVariableOp" output_port_id="dense_1_6/MatMul/ReadVariableOp:0" />
+		<IR name="dense_1_6/MatMul/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dense_1_6/MatMul/ReadVariableOp" output_port_id="dense_1_6/MatMul/ReadVariableOp:0" />
+		<IR name="dense_1_6/MatMul/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dense_1_6/MatMul" output_port_id="dense_1_6/MatMul:0" />
+		<IR name="dense_1_6/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dense_1_6/MatMul" output_port_id="dense_1_6/MatMul:0" />
+		<IR name="dense_1_6/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dense_1_6/BiasAdd/ReadVariableOp" output_port_id="dense_1_6/BiasAdd/ReadVariableOp:0" />
+		<IR name="dense_1_6/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dense_1_6/BiasAdd/ReadVariableOp" output_port_id="dense_1_6/BiasAdd/ReadVariableOp:0" />
+		<IR name="dense_1_6/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dense_1_6/BiasAdd/Add" output_port_id="dense_1_6/BiasAdd:0" />
+		<IR name="dense_1_6/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dense_1_6/BiasAdd" output_port_id="dense_1_6/BiasAdd:0" />
+		<IR name="dense_1_6/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dense_1_6/Softmax" output_port_id="dense_1_6/Softmax:0" />
+		<IR name="dense_1_6/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="dense_1_6/Softmax" output_port_id="dense_1_6/Softmax:0" />
+		<IR name="dense_1_6/Softmax" output_port_id="1" />
+	</map>
+</mapping>
