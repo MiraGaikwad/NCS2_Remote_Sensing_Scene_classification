@@ -1,6 +1,17 @@
 # NCS2_Remote_Sensing_Scene_classification
 Remote Sensing Scene Classification on Intel Neural Compute Stick 2 
 
+## Files in each model folder
+
+1. Baseline and pruned models                   - <Model name>_Baseline_Pruned.ipynb  
+2. Quantised models                             - <Model name>_Quantization.ipynb
+3. Freeze the model                             - Convert_to_PB_<Model name>.ipynb
+4. Inference pipeline and time calculation      - hello_UCMerced_time.py 
+5. Load model to device plugin time calculation - hello_UCMerced_load_time.py
+6. Batch Inference on 120 images                - Batch_inference_120.ipynb
+7. IR_model_FP16/                               - IR Files for FP16 models
+8. IR_model_FP32/                               - IR Files for FP32 models 
+
 ## H5 models are frozen using following code 
 
 import tensorflow as tf
