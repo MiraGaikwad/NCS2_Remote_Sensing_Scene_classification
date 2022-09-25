@@ -1,0 +1,2099 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="input_2" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_2" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_2" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_2" output_port_id="input_2" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="input_2" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_2" output_port_id="input_2" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_2" output_port_id="input_2" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_2" output_port_id="input_2:0" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="input_2:0" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_2" output_port_id="input_2:0" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_2" output_port_id="input_2:0" />
+		<IR name="input_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv1_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv1_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv1_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv1_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv1_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv1_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv1_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv1_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv1_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/pool1_pad/Pad" output_port_id="StatefulPartitionedCall/model_1/pool1_pad/Pad:0" />
+		<IR name="StatefulPartitionedCall/model_1/pool1_pad/Pad" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/pool1_pad/Pad" output_port_id="StatefulPartitionedCall/model_1/pool1_pad/Pad:0" />
+		<IR name="StatefulPartitionedCall/model_1/pool1_pad/Pad" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/pool1_pool/MaxPool" output_port_id="StatefulPartitionedCall/model_1/pool1_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/model_1/pool1_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/pool1_pool/MaxPool" output_port_id="StatefulPartitionedCall/model_1/pool1_pool/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/model_1/pool1_pool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_0_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_out/add" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block1_out/add" output_port_id="StatefulPartitionedCall/model_1/conv2_block1_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block1_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_out/add" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block2_out/add" output_port_id="StatefulPartitionedCall/model_1/conv2_block2_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block2_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/max_pooling2d_3/MaxPool" output_port_id="StatefulPartitionedCall/model_1/max_pooling2d_3/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/model_1/max_pooling2d_3/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/max_pooling2d_3/MaxPool" output_port_id="StatefulPartitionedCall/model_1/max_pooling2d_3/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/model_1/max_pooling2d_3/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_out/add" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv2_block3_out/add" output_port_id="StatefulPartitionedCall/model_1/conv2_block3_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv2_block3_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_0_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_out/add" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block1_out/add" output_port_id="StatefulPartitionedCall/model_1/conv3_block1_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block1_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_out/add" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block2_out/add" output_port_id="StatefulPartitionedCall/model_1/conv3_block2_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block2_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_out/add" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block3_out/add" output_port_id="StatefulPartitionedCall/model_1/conv3_block3_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block3_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/max_pooling2d_4/MaxPool" output_port_id="StatefulPartitionedCall/model_1/max_pooling2d_4/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/model_1/max_pooling2d_4/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/max_pooling2d_4/MaxPool" output_port_id="StatefulPartitionedCall/model_1/max_pooling2d_4/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/model_1/max_pooling2d_4/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_out/add" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv3_block4_out/add" output_port_id="StatefulPartitionedCall/model_1/conv3_block4_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv3_block4_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_0_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block1_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block1_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block1_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block2_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block2_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block2_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block3_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block3_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block3_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block4_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block4_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block4_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block5_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block5_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block5_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/max_pooling2d_5/MaxPool" output_port_id="StatefulPartitionedCall/model_1/max_pooling2d_5/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/model_1/max_pooling2d_5/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/max_pooling2d_5/MaxPool" output_port_id="StatefulPartitionedCall/model_1/max_pooling2d_5/MaxPool:0" />
+		<IR name="StatefulPartitionedCall/model_1/max_pooling2d_5/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv4_block6_out/add" output_port_id="StatefulPartitionedCall/model_1/conv4_block6_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv4_block6_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_0_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_out/add" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block1_out/add" output_port_id="StatefulPartitionedCall/model_1/conv5_block1_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block1_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_out/add" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block2_out/add" output_port_id="StatefulPartitionedCall/model_1/conv5_block2_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block2_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_preact_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_preact_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_preact_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_preact_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_preact_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_preact_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_1_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_1_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_1_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_1_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_1_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_1_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_1_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_1_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_1_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_2_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_2_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_2_bn/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_2_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_2_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_2_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_2_relu/Relu" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_2_relu/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_2_relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/Conv2D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_3_conv/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_out/add" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/conv5_block3_out/add" output_port_id="StatefulPartitionedCall/model_1/conv5_block3_out/add:0" />
+		<IR name="StatefulPartitionedCall/model_1/conv5_block3_out/add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/post_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="StatefulPartitionedCall/model_1/post_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/post_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/post_bn/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/model_1/post_bn/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/model_1/post_bn/FusedBatchNormV3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean" output_port_id="StatefulPartitionedCall/model_1/dropout_1/Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dropout_1/Identity" output_port_id="StatefulPartitionedCall/model_1/dropout_1/Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean" output_port_id="StatefulPartitionedCall/model_1/dropout_1/Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean" output_port_id="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean:0" />
+		<IR name="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dropout_1/Identity" output_port_id="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean:0" />
+		<IR name="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean" output_port_id="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean:0" />
+		<IR name="StatefulPartitionedCall/model_1/global_average_pooling2d_1/Mean" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_2/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/dense_2/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_2/MatMul/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_2/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/dense_2/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_2/MatMul/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_2/MatMul" output_port_id="StatefulPartitionedCall/model_1/dense_2/MatMul:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_2/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_2/MatMul" output_port_id="StatefulPartitionedCall/model_1/dense_2/MatMul:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_2/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/dense_2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_2/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_2/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/dense_2/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_2/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_2/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/dense_2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_2/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/dense_2/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_2/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_2/Relu" output_port_id="StatefulPartitionedCall/model_1/dense_2/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_2/Relu" output_port_id="StatefulPartitionedCall/model_1/dense_2/Relu:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_2/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/dense_3/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/MatMul/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/MatMul/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/dense_3/MatMul/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/MatMul/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/MatMul" output_port_id="StatefulPartitionedCall/model_1/dense_3/MatMul:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/MatMul" output_port_id="StatefulPartitionedCall/model_1/dense_3/MatMul:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/MatMul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/dense_3/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/model_1/dense_3/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/BiasAdd/Add" output_port_id="StatefulPartitionedCall/model_1/dense_3/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/BiasAdd" output_port_id="StatefulPartitionedCall/model_1/dense_3/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_275" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="Func/StatefulPartitionedCall/output/_275:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="Func/StatefulPartitionedCall/output/_275:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_275" output_port_id="Func/StatefulPartitionedCall/output/_275:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="Func/StatefulPartitionedCall/output/_275:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="Func/StatefulPartitionedCall/output/_275:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_275" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="StatefulPartitionedCall/model_1/dense_3/Softmax:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="StatefulPartitionedCall/model_1/dense_3/Softmax:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_275" output_port_id="StatefulPartitionedCall/model_1/dense_3/Softmax:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="StatefulPartitionedCall/model_1/dense_3/Softmax:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="StatefulPartitionedCall/model_1/dense_3/Softmax:0" />
+		<IR name="StatefulPartitionedCall/model_1/dense_3/Softmax" output_port_id="1" />
+	</map>
+</mapping>
